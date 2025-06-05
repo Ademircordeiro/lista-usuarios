@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use '@angular/material' as mat;
+$theme: mat.define-theme();
+
+@include mat.typography-hierarchy($theme, $back-compat: true);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import './app/styles/utils/text-align-center';

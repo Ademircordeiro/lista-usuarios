@@ -1,0 +1,21 @@
+:host {
+    max-width: 430px;
+    padding-right: 20px;
+}
+.title-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+.subtitle-item {
+    font-size: 12px;
+    font-weight: 400;    
+    vertical-align: super;
+    margin-right: 10px;
+}
+.details-item {
+    font-size: 18px;
+    font-weight: 400;
+}
+.mat-divider {
+    border-top-color: #dfdfdf;
+}

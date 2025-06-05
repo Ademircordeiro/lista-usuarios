@@ -1,0 +1,50 @@
+<mat-card appearance="outlined">
+  <mat-list>
+    <mat-list-item class="u-text-align-center"
+      ><span class="title-item">Detalhes do usuário</span></mat-list-item
+    >
+
+    <mat-list-item>
+      <span class="subtitle-item">Nome</span
+      ><span class="details-item">{{ user.nome | dashIfEmpty }}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>
+      <span class="subtitle-item">Email</span
+      ><span class="details-item">{{ user.email | dashIfEmpty }}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>
+      <span class="subtitle-item">Telefone</span
+      ><span class="details-item">{{ user.telefone | phone }}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>
+      <span class="subtitle-item">Endereço</span>
+      <span class="details-item">{{ user.endereco | address }}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>
+      <span class="subtitle-item">Status</span
+      ><span class="details-item">{{ user.ativo | status }}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>
+      <span class="subtitle-item">Função</span
+      ><span class="details-item">{{ user.funcao | dashIfEmpty }}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>
+      <span class="subtitle-item">Data de cadastro</span
+      ><span class="details-item">{{
+        user.dataCadastro | date : "dd/MM/yyyy" | dashIfEmpty
+      }}</span>
+    </mat-list-item>
+  </mat-list>
+</mat-card>

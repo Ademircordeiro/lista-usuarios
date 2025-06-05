@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+.filter-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 810px;
+}

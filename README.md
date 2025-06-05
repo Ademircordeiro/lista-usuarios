@@ -1,98 +1,27 @@
-# Lista Usuários
+# UsersFilter
 
-\
-Bem-vindo! Este repositório contém o projeto desenvolvido com **Angular** para aprimorar minhas habilidades no framework Angular.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.14.
 
-## 📖 Sobre o Projeto
+## Development server
 
-O **Lista Usuários** é um filtro de lista de usuários. O projeto foi criado para consolidar conhecimentos em:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-- **Pipe**: Transformação de dados diretamente no template.
-- **Pure functions**: Retornam sempre o mesmo resultado para as mesmas entradas, sem efeitos colaterais.
+## Code scaffolding
 
-Este projeto é ideal para quem deseja estudar Angular ou explorar exemplos práticos de suas funcionalidades.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## 🚀 Funcionalidades
+## Build
 
-- 🔍 **Filtro dinâmico** de passagens:
-  - Nome
-  - Range de data
-  - Status
-- 🎨 Componentes de UI modernos, graças ao **Angular Material**.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## 🛠️ Tecnologias Utilizadas
+## Running unit tests
 
-- **Frontend**:
-  - **Angular 18.2.0**: Framework principal.
-  - **TypeScript**: Para tipagem estática e código robusto.
-  - **SCSS**: Estilização avançada e modular.
-- **Bibliotecas**:
-  - **Angular Material**: Componentes de interface responsivos e acessíveis.
-- **Ferramentas**:
-  - **Git**: Controle de versão.
-  - **npm**: Gerenciamento de dependências.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## 📦 Instruções de Instalação
+## Running end-to-end tests
 
-Siga os passos abaixo para rodar o projeto localmente:
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-1. **Clone o repositório**:
+## Further help
 
-   ```bash
-   git clone https://github.com/Ademircordeiro/lista-usuarios.git
-   cd lista-usuarios
-   ```
-
-2. **Instale as dependências**:
-
-   ```bash
-   npm install
-   ```
-
-3. **Inicie o servidor de desenvolvimento**:
-
-   ```bash
-   ng serve -o
-   ```
-
-## 🖥️ Como Usar
-
-1. Abra a aplicação no navegador.
-2. Use os campos de filtro para refinar a lista de usuários.
-3. Explore o código-fonte para entender como **Pipes** foram implementados.
-
-## 🤝 Como Contribuir
-
-1. Faça um **fork** do repositório.
-
-2. Crie uma branch para sua feature:
-
-   ```bash
-   git checkout -b feature/nova-feature
-   ```
-
-3. Commit suas mudanças:
-
-   ```bash
-   git commit -m 'Adiciona nova feature'
-   ```
-
-4. Push para a branch:
-
-   ```bash
-   git push origin feature/nova-feature
-   ```
-
-5. Abra um **Pull Request** no GitHub.
-
-## 📬 Contato
-
-- **Autor**: Ademir Cordeiro
-- **GitHub**: [Ademircordeiro](https://github.com/Ademircordeiro)
-- **LinkedIn**: [linkedin.com/in/ademircordeiro](https://www.linkedin.com/in/ademircordeiro/)
-
-📧 Dúvidas ou sugestões? Entre em contato via LinkedIn ou abra uma issue!
-
-## ⭐ Apoie o Projeto
-
-Gostou do projeto? Deixe uma **estrela** no repositório para apoiar! 🚀
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
